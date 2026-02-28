@@ -4,10 +4,8 @@ Solution to the Week 5 module homework
 ### Question 1. Bruin Pipeline Structure
 In a Bruin project, what are the required files/directories?
 
-bruin.yml and assets/
-.bruin.yml and pipeline.yml (assets can be anywhere)
-.bruin.yml and pipeline/ with pipeline.yml and assets/
-pipeline.yml and assets/ only
+- .bruin.yml and pipeline/ with pipeline.yml and assets/
+
 
 ### Question 2. Materialization Strategies
 You're building a pipeline that processes NYC taxi data organized by month based on pickup_datetime. Which incremental strategy is best for processing a specific interval period by deleting and inserting data for that time period?
